@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "results": [
+    {
+      "testcase": "tc1",
+      "status": "Accepted"
+    },
+    {
+      "testcase": "tc2",
+      "status": "Accepted"
+    },
+    {
+      "testcase": "tc3",
+      "status": "Accepted"
+    }
+  ]
+}
