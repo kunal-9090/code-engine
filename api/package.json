@@ -1,14 +1,13 @@
 {
-  "name": "api",
+  "name": "code-engine-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Competitive Coding Platform Code Execution API",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Kunal Pattanaik",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
