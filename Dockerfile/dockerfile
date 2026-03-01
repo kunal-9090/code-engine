@@ -1,0 +1,15 @@
+FROM docker:24-dind
+
+RUN apk add --no-cache nodejs npm bash g++ gcc openjdk17 python3
+
+WORKDIR /app
+
+COPY api/package*.json ./
+
+RUN npm install
+
+COPY api .
+
+EXPOSE 3000
+
+CMD ["node","server.js"]
